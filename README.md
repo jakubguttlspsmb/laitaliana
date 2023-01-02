@@ -1,2 +1,2 @@
-#projekt.prosinec
-[Spustit](https://jakubguttlspsmb.github.io/laitaliana/)
+
+[Laitaliana](https://jakubguttlspsmb.github.io/laitaliana/)
