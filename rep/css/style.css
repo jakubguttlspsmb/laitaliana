@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  user-select: none;
+  box-sizing: border-box;
+}
+#vavrik {
+  width: 25%;
+  height: 35%;
+  position: absolute;
+  top: 44%;
+  left: 30%;
+
+}
+#ulicka,
+#kuchyn,
+#pristav,
+#fishshop,
+#coffeeshop {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#ulicka {
+  background-image: url("../img/ulicka.jpg");
+}
+#fishshop {
+  background-image: url("../img/sea.jpg");
+}
+#coffeeshop {
+  background-image: url("../img/coffeshop.jpg");
+}
+#kuchyn{
+  background-image: url("../img/kitchen.jpg");
+}
+
+#sipka1,
+#sipka2,
+#sipka3,
+#sipka5 {
+  width: 8%;
+  height: 10%;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#sipka1 {
+  top: 65%;
+  left: 52%;
+}
+#sipka1:hover {
+  transform: scale(1.1);
+}
+#sipka2 {
+  top: 50%;
+  left: 33%;
+}
+#sipka2:hover {
+  transform: scale(1.1);
+}
+#sipka3 {
+  top: 80%;
+  left: 8%;
+}
+#sipka3:hover {
+  transform: scale(1.1);
+}
+#sipka5 {
+  top: 45%;
+  left: 89%;
+}
+#sipka5:hover {
+  transform: scale(1.1);
+}
+#pristav {
+  background-image: url("../img/pristav.jpg");
+}
+#coffee {
+  position: absolute;
+  top: 25%;
+  left: 0%;
+  transition: 0.5s;
+}
+#coffee:hover {
+  transform: scale(1.1);
+}
+#fish {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transition: 0.5s;
+}
+#fish:hover {
+  transform: scale(1.1);
+}
+
+#stats {
+  background-color: white;
+  border: solid black 1px;
+  position: absolute;
+  right: 0;
+  top: 80%;
+  width: 15%;
+  height: 20%;
+  text-align: center;
+  font-family: "Prosto One", serif;
+  font-size: 1.5em;
+}
+#enemy {
+  text-align: center;
+  position: absolute;
+  bottom: 30%;
+  right: 5%;
+  font-family: "Anton", sans-serif;
+  font-size: 1.5em;
+}
+#player {
+  text-align: center;
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  font-family: "Anton", sans-serif;
+  font-size: 1.5em;
+}
+#vavrikfight1 {
+  width: 130%;
+  height: 120%;
+}
+#attack {
+  display: block;
+  margin: 40% 33%;
+  font-family: "Anton", sans-serif;
+  font-size: 2em;
+  width: 20%;
+  height: 3em;
+}
+#x {
+  display: none;
+
+}
+#x1{
+  width: 7%;
+  height: 7%;
+}
+#text{
+  font-size: 3em;
+  font-family: "Prosto One", serif;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+.cook{
+  display: none;
+  margin: 42% 33%;
+  font-family: "Anton", sans-serif;
+  font-size: 2em;
+  width: 20%;
+  height: 3em;
+  position: absolute;
+}
+#text1 {
+  font-size: 3em;
+  font-family: "Prosto One", serif;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+#cook1{
+  display: block;
+}
+#repeat { 
+position: absolute;
+display: none;
+}
+#sellfish{
+position: absolute;
+  top: 42%;
+  left: 75%;
+} 
+
+#sellfish:hover {
+  transform: scale(1.1);
+}
+#text2{
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  font-size: 2em;
+  font-family: "Prosto One", serif;
+}
+.items{
+  position: absolute;
+  height: 35%;
+  text-align: center;
+  left: 15%;
+  font-size: 1.5em;
+  font-family: "Prosto One", serif;
+}
+.items:hover {
+  transform: scale(1.2);
+}
+#hat{
+  top: 60%;
+}
+#panev{
+  top: 30%;
+}
+
+#music{display: none;}
